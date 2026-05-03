@@ -1,4 +1,4 @@
-# 🐴 Equine Lameness Location Predictor
+# 🐴 Mizzou Lameness Predictor
 
 A machine learning web app that predicts the **anatomical location of equine lameness** from inertial sensor gait data and clinical records.
 

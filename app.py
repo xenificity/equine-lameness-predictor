@@ -1,5 +1,5 @@
 """
-Equine Lameness Location Predictor — Streamlit App
+Mizzou Lameness Predictor — Streamlit App
 MU Veterinary Health Center, University of Missouri
 """
 
@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 MODEL_PATH = os.path.join(os.path.dirname(__file__), 'models', 'pipeline.pkl')
 
 st.set_page_config(
-    page_title='Equine Lameness Predictor',
+    page_title='Mizzou Lameness Predictor',
     page_icon='🐴',
     layout='wide',
     initial_sidebar_state='expanded',
@@ -304,7 +304,7 @@ for key in ['ex_sensor','ex_med','ex_history','ex_reason','active_example']:
 
 # ─── SIDEBAR ─────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## 🐴 Equine Lameness")
+    st.markdown("## 🐴 Mizzou Lameness")
     st.markdown("**MU Veterinary Health Center**  \nUniversity of Missouri")
     st.markdown("---")
 
@@ -534,7 +534,7 @@ elif tab_sel == "About":
     col1, col2 = st.columns([2, 1])
     with col1:
         st.markdown("""
-### Equine Lameness Location Predictor
+### Mizzou Lameness Predictor
 
 This tool was developed at the **MU Veterinary Health Center, University of Missouri**
 to assist veterinarians in localizing equine lameness using machine learning.
@@ -598,7 +598,7 @@ For questions or collaboration inquiries, contact the MU Veterinary Health Cente
 # TAB: PREDICTOR
 # ──────────────────────────────────────────────────────────────────────────────
 else:
-    st.title("🐴 Equine Lameness Location Predictor")
+    st.title("🐴 Mizzou Lameness Predictor")
     st.markdown(
         "Predict the anatomical location of equine lameness from inertial sensor gait data "
         "and clinical records. Use the **sidebar** to load an example case or navigate to **Documentation** for a full guide."
@@ -803,7 +803,7 @@ else:
     st.markdown("---")
     st.markdown(
         "<div style='text-align:center;color:#888;font-size:0.82rem;'>"
-        "Equine Lameness Location Predictor · MU Veterinary Health Center · University of Missouri<br>"
+        "Mizzou Lameness Predictor · MU Veterinary Health Center · University of Missouri<br>"
         "For research and clinical decision support use only. Not a substitute for veterinary examination."
         "</div>",
         unsafe_allow_html=True
