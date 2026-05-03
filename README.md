@@ -2,7 +2,7 @@
 
 A machine learning web app that predicts the **anatomical location of equine lameness** from inertial sensor gait data and clinical records.
 
-**Live demo →** *(link appears here after Streamlit Cloud deployment)*
+**Live demo →** https://mizzou-lameness-predictor.streamlit.app
 
 ---
 
